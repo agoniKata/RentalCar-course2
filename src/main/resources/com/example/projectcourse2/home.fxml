@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Home" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #0598ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectcourse2.Home">
+   <children>
+      <AnchorPane fx:id="Home" layoutX="349.0" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: white;">
+         <children>
+            <PasswordField fx:id="userPassword" layoutX="92.0" layoutY="236.0" prefHeight="26.0" prefWidth="165.0" promptText="Password" style="-fx-border-color: #0598ff; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;">
+               <font>
+                  <Font name="Dubai Medium" size="14.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="userName" layoutX="92.0" layoutY="195.0" prefHeight="26.0" prefWidth="165.0" promptText="User Name" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;">
+               <font>
+                  <Font name="Dubai Medium" size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="loginButton" layoutX="140.0" layoutY="307.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="58.0" style="-fx-background-color: #0598ff;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Dubai Medium" size="14.0" />
+               </font>
+            </Button>
+            <Hyperlink fx:id="signButton" layoutX="120.0" layoutY="434.0" prefHeight="24.0" prefWidth="156.0" text="You don't have an account?" />
+            <Hyperlink fx:id="adminButton" layoutX="131.0" layoutY="458.0" prefHeight="22.0" prefWidth="134.0" text="Maybe you are an admin?">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Hyperlink>
+            <Text fill="#0598ff" layoutX="123.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login" wrappingWidth="92.00003662109361">
+               <font>
+                  <Font name="Dubai Medium" size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="89.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rental Car">
+         <font>
+            <Font name="Dubai Medium" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="136.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rental-car.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

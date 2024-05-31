@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #0598ff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gul.userEvent">
+    <children>
+        <AnchorPane layoutX="350.0" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: white;">
+            <children>
+                <Button fx:id="select" layoutX="111.0" layoutY="176.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="166.0" style="-fx-background-color: #0598ff;" text="Select an event" textFill="WHITE">
+                    <font>
+                        <Font name="Dubai Medium" size="19.0" />
+                    </font>
+                </Button>
+                <Hyperlink fx:id="home" layoutX="154.0" layoutY="462.0" text="Home" />
+            <Button fx:id="show" layoutX="111.0" layoutY="260.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="166.0" style="-fx-background-color: #0598ff;" text="Show my events" textFill="WHITE">
+               <font>
+                  <Font name="Dubai Medium" size="19.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Text fill="WHITE" layoutX="61.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event system ">
+            <font>
+                <Font name="Dubai Medium" size="40.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="76.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" management" wrappingWidth="201.39999389648438">
+            <font>
+                <Font name="Dubai Medium" size="35.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

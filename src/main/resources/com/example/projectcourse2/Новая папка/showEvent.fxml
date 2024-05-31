@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #0598ff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gul.ShowEvent">
+    <children>
+        <AnchorPane layoutX="350.0" prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: white;">
+            <children>
+                <Hyperlink fx:id="home" layoutX="14.0" layoutY="462.0" text="Home" />
+                <Button fx:id="show" layoutX="129.0" layoutY="453.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: #0598ff;" text="Show List event" textFill="WHITE">
+                    <font>
+                        <Font name="Dubai Medium" size="14.0" />
+                    </font>
+                </Button>
+            <TextArea fx:id="list" layoutX="-1.0" prefHeight="445.0" prefWidth="350.0" />
+            </children>
+        </AnchorPane>
+      <TextField fx:id="nameEvent" layoutX="154.0" layoutY="174.0" />
+      <Text fill="#050000" layoutX="47.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name Event">
+         <font>
+            <Font name="Dubai Medium" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="50.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time">
+         <font>
+            <Font name="Dubai Medium" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="time" layoutX="154.0" layoutY="256.0" />
+      <Text layoutX="45.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select an event">
+         <font>
+            <Font name="Dubai Medium" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#050000" layoutX="47.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Venue">
+         <font>
+            <Font name="Dubai Medium" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="venueEvent" layoutX="154.0" layoutY="215.0" />
+      <Button fx:id="show1" layoutX="109.0" layoutY="313.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="119.0" style="-fx-background-color: white;" text="Show List event">
+         <font>
+            <Font name="Dubai Medium" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
